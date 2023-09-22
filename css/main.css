@@ -113,6 +113,9 @@ body{
     font-size: 13px;
     cursor: pointer;
 }
+.hero-price-btn:hover {
+    opacity: 0.7;
+}
 .hero-btn {
     display: block;
     margin: 40px auto 20px auto;
@@ -127,6 +130,9 @@ body{
     cursor: pointer;
     box-shadow: 2px 8px 13px rgba(2, 2, 2, 0.658);
 }
+.hero-btn:hover{
+    opacity: 0.8;
+}
 .hero-btn-cancel {
     border: none;
     background-color: transparent;
@@ -136,4 +142,7 @@ body{
     font-weight: 600;
     color: rgba(10, 9, 9, 0.377);
     cursor: pointer;
+}
+.hero-btn-cancel:hover {
+    color: #000;
 }
